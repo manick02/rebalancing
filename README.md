@@ -3,10 +3,10 @@ This is beginning with the intention of self study, and it can potentially
 turn to a reusable component in some form
 ## Usecases
 - Long Running tasks needs to appropriately placed or invoked in the relatively free node of the cluster
-- Currently executing tasks may die hence needs a high availability guarantee.
+- Curr"ently, executing tasks may die hence needs a high availability guarantee.
 
 Initial problem-solving and research would be along this line. 
 
 # Research Materials 
 Following algorithm presents a good work - https://pdf.sciencedirectassets.com/280203/1-s2.0-S1877050917X00148/1-s2.0-S1877050917319695/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLWVhc3QtMSJGMEQCIFJJud4nvABvcZFz0LGlPv29hTIfmrLPfBig1gUnGyT3AiBtsGF5%2FrBUVmi5aBvS6DuxGodPRFCayZG0gBqs%2BEYJ9Cr6AwhrEAQaDDA1OTAwMzU0Njg2NSIMwxegAUXkmGE2MhIRKtcDyRpqzosFhMhzgayOXajKX9Z%2Fj0Qd7CYB9ywtkuC7c1lDbTh3ioIOEwz4b1PKC87bRpYvkmEamYvQXXCgechqAMki5ouy7FvshneuVzbHJyKrrBAZCg9d3I%2Fbe%2FIQhHcUXZjksP0L6ZEeJKE8JYlsgT2b2DB0kBEd33ir7UL1DxVb6Ph0GViRlKS9KRkf8%2B%2FSkZOwEghKbD01S1NdMQqnmLuDXINjIwy5O3jV%2FUFF%2BpMS3JZNR24Z%2FRVUqSAeaOz2S%2BuN%2Fs1b9N%2B%2Bi8VQMlh%2BxWNyZA%2BVx69R1Z%2BZzyIMUlol0tt9jsfB%2Fsw%2F%2FbXkzAJK8A8%2FCpfJb%2FFlA%2Bc2rzKewrbEptp45C3w677Z5K%2F75ElhfbVZx04GR26MBkSN4FshisqC23FcRuMtK8Cr79neXT%2FkxfCtxvFr0gS1ULdXwdjxwznXjreR%2BcLzW5%2B1J4ixA3cEa6Ef1AdsxIfujQ7U0SHql4yf%2FdaygBXF80VlQOFfHiIYTS8M4T%2BuLavUMRF%2FdzYP36a3i1GHKGtrGoGOfZbqGIfbgW7er7%2B2%2Fb9t%2BShcGOA58VfJtPzBI1%2BvDmbFvQ2aDx89mQROyOvqjb3%2FooU5pcoRKpKhWnn0s6kuaFaUTBKKuEkfMPTUoZAGOqYBHVPWR9t4dCuA8oFNYuHTCSs83euD%2FkYY56XXSe8%2FGrzg4y53P6Xv0CYUWnwhCIsZZiX9TnRnygaWHsQlxr%2BB6YI9jiOWelx4dM%2Fzbg8Uqa8xkQ69aztcrIo5hnOv9ExVm18eFA8o9CEDBJtE9tjPmnYy21PKfcDbxv0JLU2j7Nu%2FlAD4sCqitb26JfwFaiaa9xGN9Xakpn6c4rM3JBoZRzEh7d6gCA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220213T032123Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYSUTBE64S%2F20220213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f827ba2397ef4f2c19c8638ae1f0823d1124ad21bd7237d16e5eebb8575428e2&hash=3f574b03eab8c23e33261b58ce1693b7b94cedf4a36cd96e5e70f45032d8f376&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1877050917319695&tid=spdf-0812fd87-883c-4617-a9dc-446ca078b356&sid=d03e55189845d54acc4a839-5ff5abdd6f40gxrqb&type=client&ua=4c020d020b06545d075854&rr=6dcaed19b85ce2d9
-Need to 
+Need to build some simulation around this to understand
