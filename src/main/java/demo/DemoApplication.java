@@ -1,6 +1,6 @@
 package demo;
-
-// import org.apache.curator.test.TestingServer;
+import org.apache.
+import org.apache.curator.test.TestingServer;
 public class DemoApplication {
     /**
      * DemoApplication
@@ -8,6 +8,6 @@ public class DemoApplication {
      */
     public static void main(String[] args) {
         System.out.println("Hello World");
-        // TestingServer server = new TestingServer();
+        TestingServer server = new TestingServer();
     }
 }
