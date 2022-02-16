@@ -4,7 +4,6 @@ import  java.io.Closeable;
 import java.io.IOException;
 
 import org.apache.curator.framework.recipes.leader.LeaderSelectorListenerAdapter;
-import org.apache.curator.framework.recipes.leader.LeaderSelector;
 
 public class LeaderSelector  extends LeaderSelectorListenerAdapter implements Closeable{
     @Override
